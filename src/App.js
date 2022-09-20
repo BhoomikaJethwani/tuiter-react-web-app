@@ -6,8 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+
+          Heyyy A2
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload. By Bhoomika
+          Welcomeeee <code>src/App.js</code> and save to reload. By Bhoomika
 
         </p>
         <a
