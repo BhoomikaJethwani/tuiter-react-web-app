@@ -43,6 +43,11 @@ My favorite books (in no particular order)
     <li>The Forever War</li>
 </ul>
 
+<a name="table-of-content"></a>
+<a href="#section-a">Go to section A</a><br>
+<a href="#section-b">Go to section B</a><br>
+
+
 <!--TABLE-->
 <h2>Table Tag</h2>
 <table border="1" width="100%">
@@ -198,7 +203,12 @@ My favorite books (in no particular order)
         <option value="FANTASY">Fantasy</option>
     </select>
 
-<!--    Upload File-->
+
+    <a name="section-a"></a>
+    <h1>Section A</h1></a>
+    <a href="#table-of-content">Up</a>
+
+    <!--    Upload File-->
     <h2>File upload</h2>
     <input type="file"/>
 
@@ -267,6 +277,69 @@ My favorite books (in no particular order)
     to get dummy text<br/>
 
     Checkout my <a href="other-page.html">other page</a>
+
+<!--    Embedding using Iframe -->
+    <h2>Embedding other websites</h2>
+    <iframe width="600"
+            height="600"
+            src="https://en.wikipedia.org/wiki/HTML">
+    </iframe>
+
+    <h2>Embedding YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+    <h2>Embedding Google slides</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQoIYM2gXzRLKt4q5D2-ZahG7zvVcAipkRvj5k9GVLiGDs8NPlLpO3Q08cPUKQbqhL6g8aZp1ZJSwrw/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="680"
+            height="418"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+    </iframe>
+
+<!--   Scalable vector graphics - SVG-->
+<!--    Draw Rectangle-->
+
+    <h2>Drawing rectangles</h2>
+
+    <svg width="200" height="100">
+        <rect width="100" height="70"
+              style="fill:rgb(100,23,257); stroke-width:5;
+   stroke:rgb(100,1,100)" />
+    </svg>
+
+
+<!--    Draw Circle-->
+
+    <h2>Drawing circles</h2>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"
+                stroke="red" stroke-width="4" fill="pink" />
+    </svg>
+
+<!--    Draw Polygon-->
+
+    <h2>Drawing polygons</h2>
+
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 style="fill:grey; stroke:palevioletred; stroke-width:5; fill-rule:evenodd;" />
+    </svg>
+
+
+    <br>
+
+
+
+    <a name="section-b"></a>
+    <h1>Section B</h1></a>
+    <a href="#table-of-content">Up</a>
+
 
 
 </body>
