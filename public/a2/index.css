@@ -1,0 +1,33 @@
+h2 {
+    color: #282c34;
+    background-color: aliceblue;
+}
+/*Here # represents the id,
+optionally we can remove the h2 as the id is already unique*/
+h2#heading-tag {
+    color: palevioletred;
+    background-color: wheat;
+}
+
+h1
+{
+    color: black;
+    background-color: palevioletred;
+    font-family: AppleGothic;
+    font-size: 3em;
+}
+
+/*Here fg-red is unique id, the dot means that this can be applied to any elements*/
+.fg-red {
+    color: darkslateblue;
+    background-color: lightpink;
+}
+/*Go to html file and add this id to the element*/
+
+/*Here ul is parent element and li is child element
+Similarly we can navigate through the dom tree; by establishing the hierarchy */
+ul > li {
+    background-color: bisque;
+    color: darkslategray;
+    font-family: "Andale Mono";
+}
