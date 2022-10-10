@@ -1,10 +1,11 @@
 
+h3 {
+    font-size: 11px;
+}
 .wd-topic-no-img {
     font-size: 13px;
     color: grey;
 }
-
-
 
 .wd-time {
     font-size: 13px;
@@ -32,11 +33,11 @@
 .wd-nav-tabs li{
     text-align: justify;
     color: rgb(110, 118, 125);
-    font-size: 15px;
+    font-size: 12px;
     display: inline-block;
     list-style-type: none;
-    width: 13%;
-    padding: 16px;
+    width: 20%;
+    padding: 10px;
 
 }
 
@@ -83,6 +84,7 @@
 
 .wd-tuit-with-img {
     display: flex;
+    overflow: hidden;
 }
 
 .wd-tuit-text {
@@ -93,8 +95,6 @@
     width: 100px;
     height: 100px;
     float: right;
-    text-align: right;
-    margin-left: 5px;
     border-radius: 10px;
 }
 
@@ -103,4 +103,34 @@
     font-size: 16px;
     color: white;
 
+}
+
+
+.wd-navigation {
+    background-color: black;
+}
+
+.list-group li{
+    background-color: black;
+    color: white;
+
+}
+
+a {
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.wd-follow-button {
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+}
+
+.wd-tuit-button {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 50px;
 }
