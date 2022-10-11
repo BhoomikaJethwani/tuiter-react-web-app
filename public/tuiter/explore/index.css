@@ -36,7 +36,7 @@ h3 {
     font-size: 12px;
     display: inline-block;
     list-style-type: none;
-    width: 20%;
+    width: 15%;
     padding: 10px;
 
 }
@@ -125,7 +125,10 @@ a {
 .wd-follow-button {
     border-radius: 50px;
     background-color: white;
+    /*background-color: #0d6efd;*/
+    height: 30px;
     color: black;
+    font-size: 10px;
     margin-left: 20px;
 }
 
@@ -133,4 +136,17 @@ a {
     margin-top: 20px;
     width: 100%;
     border-radius: 50px;
+}
+
+.wd-follow-img   {
+    display: inline-block;
+    position: relative; width: 55px;
+    overflow: hidden; border-radius: 50%;
+
+    /*width: 10%;*/
+    /*border-radius: 30%;*/
+}
+
+.wd-follow-text {
+    font-size: 10px;
 }
