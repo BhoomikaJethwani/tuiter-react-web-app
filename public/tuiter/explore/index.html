@@ -18,12 +18,12 @@
         <div class="col-2">
             <ul class="list-group wd-navigation">
                 <li class="list-group-item">
-                    <i class="fas fa-twitter fa-2x "></i>
+                    <i class="fab fa-twitter fa-2x"></i>
 
                 </li>
                 <li class="list-group-item row">
-                    <i class="fas fa-home col-2"></i>
-                    <a href="../home.html" class="wd-nav-options col-4">Home</a>
+                    <i class="fas fa-home col-2 "></i>
+                    <a href="../home.html" class="wd-nav-options col-4 d-xxl-none">Home</a>
 
                 </li>
                 <li class="list-group-item active row">
@@ -47,7 +47,7 @@
                     <a href="../lists.html" class="text-white col-4">Lists</a>
                 </li>
                 <li class="list-group-item row">
-                    <i class="fas fa-male  col-2"></i>
+                    <i class="fas fa-user  col-2"></i>
                     <a href="../profile.html" class="text-white col-4">Profile</a>
                 </li>
                 <li class="list-group-item row">
@@ -72,19 +72,21 @@
         <!--    Explore column-->
         <div class="col-6">
 
-            <div class="wd-header-bar">
+            <div class="row">
 
-                <input placeholder="    &#128269   Search Tuiter" class="wd-search-bar">
+                <div class="wd-search-bar col-11">
+                    <input placeholder="Search Tuiter" type="text">
+                    <i class="fas fa-search fa-1x "></i>
+                </div>
 
-
+                <div class="col-1 wd-settings-button">
                     <a href="explore-settings.html">
-                        <i class="fab fa-cog"> </i>
+                        <i class="fa fa-cog fa-1x "> </i>
                     </a>
-
-
-
+                </div>
 
             </div>
+
 
             <ul class="wd-nav-tabs row">
                 <li class="col-1">
@@ -233,9 +235,9 @@
         </div>
 
         <!--    Follow column-->
-        <div class="col-sm-4">
+        <div class="col-sm-4 d-xxl-none">
             <ul class="list-group">
-                <li class="list-group-item">
+                <li class="list-group-item fw-bold">
                     Who To Follow
                 </li >
                 <!--  Follower 1-->
@@ -324,6 +326,9 @@
 
                 </li >
 
+                <li class="list-group-item " style="font-size: 12px ; color: #0a58ca">
+                    See More
+                </li >
 
             </ul>
         </div>

@@ -57,27 +57,39 @@ h3 {
 
 }
 
-.wd-header-bar{
-    display: flex;
-    overflow: hidden;
+/*.wd-header-bar{*/
+/*    display: flex;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.wd-search-bar {*/
+/*    float: left;*/
+/*}*/
+
+.wd-search-bar{
+    position: relative;
 }
 
-.wd-search-bar {
-    width: 1500%;
-    height: 30px;
+.wd-search-bar input{
+    padding-left: 35px;
+    width: 100%;
+    height: 35px;
     background-color: darkgrey;
     color: white;
-    text-align: justify;
     border-radius: 30px 30px 30px 30px;
-    float: left;
+
+}
+
+.wd-search-bar i {
+    position: absolute;
+    left: 23px;
+    top: 11px;
+    color: white;
 }
 
 .wd-settings-button {
-    margin-right: 12px;
-    padding-left: 10px;
-    font-size: 30px;
-    float: left;
-    width: 100%;
+    margin-top: 1%;
+    top: 40px;
     color: rgb(29,161,242);
     text-decoration: none;
 }
