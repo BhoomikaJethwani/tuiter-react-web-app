@@ -5,6 +5,7 @@ function PostSummaryItem() {
         $( 
         Post.map
         )
+        
            <div class="wd-tuit-with-img">
                 <div class="wd-tuit-text">
                     <div class="wd-wrapper">
