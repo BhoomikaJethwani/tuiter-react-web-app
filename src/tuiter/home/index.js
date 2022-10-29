@@ -1,5 +1,4 @@
 import React from "react";
-import PostList from "./post-list.js";
 import PostSummaryList from "./post-list.js";
 
 
