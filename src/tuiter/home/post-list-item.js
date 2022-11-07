@@ -43,7 +43,7 @@ const PostSummaryItem = (
 
                         <div className={"col-3"}>
                             <img src={"https://static.vecteezy.com/system/resources/previews/006/899/556/original/retweet-arrows-symbol-line-art-icon-vector.jpg"} width={37}/>
-                             {post.retweets}
+                            {post.retweets}
                         </div>
 
                         <div className={"col-3"}>
