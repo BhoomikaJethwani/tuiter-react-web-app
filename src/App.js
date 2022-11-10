@@ -1,14 +1,12 @@
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/HelloWorld.js";
-import Tuiter from "./tuiter";
+import Tuiter from "./tuiter/index.js";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
 
 function App() {
-    const hello = <HelloWorld/>
-    const labs =  <Labs/>
-    const tuiter =  <Tuiter/>
+
 
     return (
         <BrowserRouter>
