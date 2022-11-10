@@ -11,16 +11,16 @@ const TuitStats = (
     return(
         <li className="list-group-item">
             <div className="row">
-                <div className="col-3">
+                <div className="col-3 align-content-center padding-fat">
                     <i className="bi bi-chat"></i>
                    {tuits.replies}
                 </div>
-                <div className="col-3">
+                <div className="col-3 align-content-center">
                     <i className="bi bi-arrow-repeat"></i>
                     {tuits.retuits}
                 </div>
 
-                <div className="col-3">
+                <div className="col-3 align-content-center">
                     <img  src={ tuits.liked ? redHeart : heart
                     } alt="heart" width={tuits.liked ? 20 : 30}
                     />
@@ -28,7 +28,7 @@ const TuitStats = (
 
 
                 </div>
-                <div className="col-3">
+                <div className="col-3 align-content-center">
                     <i className="bi bi-share"></i>
                 </div>
             </div>

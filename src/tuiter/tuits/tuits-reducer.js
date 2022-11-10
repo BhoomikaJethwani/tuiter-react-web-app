@@ -4,7 +4,7 @@ import tuits from './tuits.json';
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
-    "image": "nasa.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/918px-NASA_logo.svg.png",
 };
 
 const templateTuit = {
