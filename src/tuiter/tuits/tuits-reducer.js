@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import tuits from './tuits.json';
-import {createTuitThunk,deleteTuitThunk,findTuitsThunk}
+import {updateTuitThunk,createTuitThunk,deleteTuitThunk,findTuitsThunk}
     from "../../services/tuits-thunks";
 
 const initialState = {
@@ -23,6 +23,7 @@ const templateTuit = {
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+    "image": "https://download.logo.wine/logo/The_Boring_Company/The_Boring_Company-Logo.wine.png"
 }
 
 const tuitsSlice = createSlice({

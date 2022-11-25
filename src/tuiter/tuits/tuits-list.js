@@ -1,5 +1,6 @@
 import React, {useEffect}  from "react";
-
+import TuitItem
+    from "./tuit-item";
 import {useDispatch, useSelector} from "react-redux";
 import {findTuitsThunk}
     from "../../services/tuits-thunks";
@@ -15,17 +16,19 @@ const TuitsList = () => {
 
 
     return(
-
-            <ul className="list-group">
-                {
-                    loading &&
-                    <li className="list-group-item">
-                        Loading...
+            <>
+                {loading &&
+                <li> Loading...
                     </li>
                 }
-            </ul>
-
-
+                {
+                    tuits.map(tuit => {
+                        return(
+                            <TuitItem tuits={tuit} key={tuit._id}/>
+                        );
+                    })
+                }
+            </>
     );
 };
 export default TuitsList;
